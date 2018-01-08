@@ -1,6 +1,5 @@
 #Использовать 1commands
 #Использовать fs
-#Использовать restler
 #Использовать tempfiles
 
 Перем ЭтоWindows;
