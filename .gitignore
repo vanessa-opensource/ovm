@@ -2,3 +2,4 @@
 oscript_modules/
 
 src/cmd/oscript\.cfg
+ovm*.exe
