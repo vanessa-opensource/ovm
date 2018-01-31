@@ -1,5 +1,8 @@
 # OneScript Version Manager
 
+[![Quality Gate](https://sonar.silverbulleters.org/api/badges/gate?key=sonar-opensource-add-ovm)](https://sonar.silverbulleters.org/dashboard?id=sonar-opensource-add-ovm)
+[![Tech Debt](https://sonar.silverbulleters.org/api/badges/measure?key=sonar-opensource-add-ovm&metric=sqale_debt_ratio)](https://sonar.silverbulleters.org/dashboard?id=sonar-opensource-add-ovm)
+
 ```
 Приложение: ovm
  OneScript Version Manager
