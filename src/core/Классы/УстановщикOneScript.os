@@ -90,7 +90,7 @@
 	ТекстСкрипта = 
 	"#!/bin/sh
 	|dirpath=`dirname $0`
-	|mono $dirpath / oscript.exe ""$@""";
+	|mono $dirpath/oscript.exe ""$@""";
 	
 	Лог.Отладка(
 		"Текст скрипта: 
