@@ -89,6 +89,8 @@
 	"#!/bin/sh
 	|dirpath=`dirname $0`
 	|oscript ""$dirpath/../lib/opm/src/opm.os"" ""$@""";
+	
+	ДобавитьShСкрипт(ПутьКСкрипту, ТекстСкрипта);
 
 КонецПроцедуры
 
