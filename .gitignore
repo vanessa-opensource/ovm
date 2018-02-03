@@ -7,3 +7,9 @@ ovm*.exe
 temp/
 exec.log
 *.dll
+
+coverage/
+
+junit-bdd\.xml
+
+\.sonar/
