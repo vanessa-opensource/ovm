@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-#opm run coverage
+oscript tasks/coverage.os
 
 temp=`cat src/cmd/Модули/ПараметрыПриложения.os | grep "Версия = " | sed 's|[^"]*"||' | sed -r 's/".+//'`
 version=${temp##*|}

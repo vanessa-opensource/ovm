@@ -18,7 +18,12 @@ before_install:
   - oscript
 
 install: 
-  - sudo oscript /usr/share/oscript/lib/opm/src/opm.os install -l
+  - sudo opm install -l
+  - sudo opm install -l 1bdd
+  - oscript -make src/cmd/ovm.os ovm.exe
+  - echo "mono ./ovm.exe ""$@""" > ovm
+  - chmod +x ./ovm
+  - cp /usr/share/oscript/bin/ScriptEngine.HostedScript.dll ScriptEngine.HostedScript.dll
 
 cache:
   directories:

@@ -1,3 +1,6 @@
 {
-    "language-1c-bsl.linterEntryPoint": "src/ovm.os"
+    "language-1c-bsl.linterEntryPoint": "src/cmd/ovm.os",
+    "gherkin-autocomplete.featureLibraries": [
+        "./oscript_modules/1bdd/features/lib"
+    ]
 }

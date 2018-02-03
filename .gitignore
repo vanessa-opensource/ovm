@@ -3,3 +3,13 @@ oscript_modules/
 
 src/cmd/oscript\.cfg
 ovm*.exe
+
+temp/
+exec.log
+*.dll
+
+coverage/
+
+junit-bdd\.xml
+
+\.sonar/
