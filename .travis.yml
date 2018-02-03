@@ -24,7 +24,7 @@ install:
   - echo "mono ./ovm.exe ""$@""" > ~/bin/ovm
   - chmod +x ~/bin/ovm
   - cp /usr/share/oscript/bin/ScriptEngine.HostedScript.dll ScriptEngine.HostedScript.dll
-  - ovm --help
+  - ovm
 
 cache:
   directories:
