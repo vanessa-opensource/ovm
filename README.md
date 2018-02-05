@@ -41,7 +41,8 @@ mono path/to/ovm.exe "$@"
 
 ### cmd (Windows)
 
-При выполнении команды `ovm migrate`:  
+При выполнении команды `ovm migrate`:
+
 создается запись в реестре по адресу `HKCU\Software\Microsoft\Command Processor\Autorun` следующего содержания:
 
 ```cmd
@@ -50,7 +51,8 @@ set PATH=%OVM_OSCRIPTBIN%;%PATH%
 
 ### powershell (Windows)
 
-При выполнении команды `ovm migrate`:  
+При выполнении команды `ovm migrate`:
+
 создается файл (либо добавляется в существующий) по адресу `%USERPROFILE%\Documents\WindowsPowerShell\profile.ps1` со следующим содержанием:
 
 ```powershell
@@ -60,6 +62,7 @@ set PATH=$OVM_OSCRIPTBIN;$PATH
 ### sh (*nix)
 
 При первичной активации версии OneScript:
+
 создается файл (либо добавляется в существующий) по адресу `$HOME/.profile` со следующим содержанием:
 
 ```sh
@@ -69,6 +72,7 @@ export $HOME/.local/share/ovm/current/bin:$PATH
 ### bash (*nix)
 
 При первичной активации версии OneScript:
+
 создается файл (либо добавляется в существующий) по адресу `$HOME/.bashrc` со следующим содержанием:
 
 ```bash
@@ -146,7 +150,7 @@ ovm позволяет запускать приложения в окружен
 $ ovm run 1.0.19 oscript -version # Выполнение команды oscript -version в окружении 1.0.19
 
 1.0.19.105
-``` 
+```
 
 ```sh
 $ ovm run 1.0.19 where oscript # Вывод сторонней команды where в окружении 1.0.19
@@ -164,7 +168,6 @@ C:\Users\NikitaGryzlov\AppData\Local\ovm\1.0.19\bin\oscript.exe
 ```
 
 ## Вывод команды ovm
-
 
 ```
 Приложение: ovm
