@@ -21,7 +21,7 @@ install:
   - sudo opm install -l
   - sudo opm install -l 1bdd
   - oscript -make src/cmd/ovm.os ovm.exe
-  - echo "mono ./ovm.exe ""$@""" > ~/bin/ovm
+  - echo -e "#!/bin/sh\nmono ./ovm.exe \"\$@\"" > ~/bin/ovm
   - chmod +x ~/bin/ovm
   - cp /usr/share/oscript/bin/ScriptEngine.HostedScript.dll ScriptEngine.HostedScript.dll
   - ovm
