@@ -20,7 +20,8 @@ before_install:
 install: 
   - sudo opm install -l
   - sudo opm install -l 1bdd
-  - sudo patch --ignore-whitespace oscript_modules/1bdd/features/lib/step_definitions/ВыполнениеКоманд.os 1bdd.patch
+  - sudo dos2unix oscript_modules/1bdd/features/lib/step_definitions/ВыполнениеКоманд.os
+  - sudo patch oscript_modules/1bdd/features/lib/step_definitions/ВыполнениеКоманд.os 1bdd.patch
   - oscript -make src/cmd/ovm.os ovm.exe
   - echo -e "#!/bin/sh\nmono ./ovm.exe \"\$@\"" > ~/bin/ovm
   - chmod +x ~/bin/ovm
