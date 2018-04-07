@@ -13,3 +13,5 @@ coverage/
 junit-bdd\.xml
 
 \.sonar/
+\.scannerwork
+\.sonarlint
