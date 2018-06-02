@@ -1,0 +1,15 @@
+Package: onescript-version-manager
+Version: VERSION 
+Provides: ovm
+Maintainer: SilverBulleters Team <team@silverbulleters.org> 
+Architecture: all
+Section: interpreters
+Description: 1Script Version Manager.
+  Cross-platform version manager for 1Script (oscript.io)
+Depends: mono-runtime,
+  libmono-system-core4.0-cil | libmono-system-core4.5-cil,
+  libmono-system4.0-cil | libmono-system4.5-cil,
+  libmono-corlib4.0-cil | libmono-corlib4.5-cil,
+  libmono-i18n4.0-all | libmono-i18n4.5-all
+Recommends: mono-complete
+Origin: https://github.com/silverbulleters/ovm 

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  deb-builder:
+    build: ./deb/
+    image: ovm-deb-builder
+    volumes: 
+    - ./settings:/opt/debian/
+  rpm-builder:
+    build: ./rpm/
+    image: ovm-rpm-builder
