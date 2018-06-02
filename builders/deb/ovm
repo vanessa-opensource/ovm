@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mono ~/.local/share/ovm/bin/ovm.exe "$@"

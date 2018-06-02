@@ -1,0 +1,16 @@
+_ovm_complete()
+{
+	local cur opts
+	COMPREPLY=()
+	cur="${COMP_WORDS[COMP_CWORD]}"
+	if [[ $COMP_CWORD == 1 ]] ; then
+		opts="install use uninstall delete list run which"
+		COMPREPLY=( $(compgen -W "$opts" -- ${cur}) )
+		return 0
+	fi
+	COMPREPLY=( $(compgen -df ${cur}) )
+	return 0
+}
+complete -F _ovm_complete ovm
+
+# vim: filetype=sh
