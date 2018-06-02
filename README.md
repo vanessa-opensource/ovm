@@ -188,3 +188,7 @@ C:\Users\NikitaGryzlov\AppData\Local\ovm\1.0.19\bin\oscript.exe
 
 Для вывода справки по доступным командам наберите: ovm КОМАНДА --help
 ```
+
+## Лицензия
+
+* Mozilla Public License Version 2.0
