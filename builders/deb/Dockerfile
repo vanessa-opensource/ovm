@@ -15,8 +15,7 @@ ADD ovm.exe /opt/builder/
 RUN chmod +x /opt/build.sh
 
 VOLUME /opt/debian
-
-VOLUME /opt/
+VOLUME /opt/dist
 
 WORKDIR /opt
 

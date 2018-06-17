@@ -15,3 +15,6 @@ junit-bdd\.xml
 \.sonar/
 \.scannerwork
 \.sonarlint
+
+
+builders/dist

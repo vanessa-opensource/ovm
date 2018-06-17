@@ -32,3 +32,7 @@ chmod 777 $DSTPATH.deb
 dpkg-name -o $DSTPATH.deb
 
 ls -al /opt/deb
+
+cp /opt/deb/*.deb /opt/dist/
+
+ls -al /opt/dist
