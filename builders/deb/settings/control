@@ -1,5 +1,5 @@
 Package: onescript-version-manager
-Version: VERSION 
+Version: 1.0.0 
 Provides: ovm
 Maintainer: SilverBulleters Team <team@silverbulleters.org> 
 Architecture: all

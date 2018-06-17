@@ -1,6 +1,7 @@
 #!/bin/sh
 
-docker-compose build
+docker-compose build deb-builder
+docker-compose up deb-builder
 
 #docker-compose up 
 #TODO - надо подумать на тестовым запуском - фактически мы должны проверить что пакеты установились и можно установить движок и какую-нибудь библиотеку: например logos

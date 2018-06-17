@@ -4,7 +4,7 @@ services:
     build: ./deb/
     image: ovm-deb-builder
     volumes: 
-    - ./settings:/opt/debian/
+    - ./deb/settings:/opt/debian/
   rpm-builder:
     build: ./rpm/
     image: ovm-rpm-builder
