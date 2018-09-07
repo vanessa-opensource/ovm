@@ -25,8 +25,7 @@ ovm - утилита, предназначенная для установки, 
 
 ### Linux
 
-* Скачать `ovm.exe` и `ScriptEngine.HostedScript.dll` со страницы [страницы релизов GitHub](https://github.com/silverbulleters/ovm/releases)
-* Файлы должны располагаться в одной папке
+* Скачать `ovm.exe` со страницы [страницы релизов GitHub](https://github.com/silverbulleters/ovm/releases)
 * Для быстрого использования приложения можно создать sh-файл со следующим содержанием:
 
 ```sh
