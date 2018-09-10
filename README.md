@@ -2,8 +2,8 @@
 
 [![Release](https://img.shields.io/github/release/silverbulleters/ovm/all.svg)](https://github.com/silverbulleters/ovm/releases)
 [![Build Status](https://travis-ci.org/silverbulleters/ovm.svg?branch=develop)](https://travis-ci.org/silverbulleters/ovm)
-[![Quality Gate](https://opensonar.silverbulleters.org/api/project_badges/measure?project=ovm&metric=alert_status)
-[![Tech Debt](https://opensonar.silverbulleters.org/api/project_badges/measure?project=ovm&metric=sqale_index)
+[![Quality Gate](https://opensonar.silverbulleters.org/api/project_badges/measure?project=ovm&metric=alert_status)](https://opensonar.silverbulleters.org/dashboard?id=ovm)
+[![Tech Debt](https://opensonar.silverbulleters.org/api/project_badges/measure?project=ovm&metric=sqale_index)](https://opensonar.silverbulleters.org/dashboard?id=ovm)
 
 ## Цель
 
