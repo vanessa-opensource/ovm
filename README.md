@@ -16,6 +16,8 @@ ovm - утилита, предназначенная для установки, 
 
 ## Установка
 
+Для упрощения миграции на ovm перед установкой рекомендуется удалить системный OneScript и выполнить выход из системы/вход в систему. 
+
 ### Windows
 
 * Скачать `ovm.exe` со страницы [страницы релизов GitHub](https://github.com/silverbulleters/ovm/releases)
@@ -40,7 +42,7 @@ mono path/to/ovm.exe "$@"
 
 ### cmd (Windows)
 
-При выполнении команды `ovm migrate`:
+При выполнении команды `ovm migrate` (только при наличии системной установки OneScript):
 
 создается запись в реестре по адресу `HKCU\Software\Microsoft\Command Processor\Autorun` следующего содержания:
 
@@ -50,7 +52,7 @@ set PATH=%OVM_OSCRIPTBIN%;%PATH%
 
 ### powershell (Windows)
 
-При выполнении команды `ovm migrate`:
+При выполнении команды `ovm migrate` (только при наличии системной установки OneScript):
 
 создается файл (либо добавляется в существующий) по адресу `%USERPROFILE%\Documents\WindowsPowerShell\profile.ps1` со следующим содержанием:
 
