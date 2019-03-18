@@ -113,7 +113,11 @@
 	ТекстСкрипта = 
 	"#!/bin/sh
 	|dirpath=`dirname $0`
-	|oscript ""$dirpath/../lib/opm/src/opm.os"" ""$@""
+	|opmpath=$dirpath/../lib/opm/src/opm.os
+	|if [ ! -f ""$opmpath"" ]; then
+	|	opmpath=$dirpath/../lib/opm/src/cmd/opm.os
+	|fi
+	|oscript ""$opmpath"" ""$@""
 	|";
 	
 	ДобавитьShСкрипт(ПутьКСкрипту, ТекстСкрипта);
