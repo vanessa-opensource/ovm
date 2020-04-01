@@ -1,10 +1,5 @@
 # OneScript Version Manager
 
-[![Release](https://img.shields.io/github/release/silverbulleters/ovm/all.svg)](https://github.com/silverbulleters/ovm/releases)
-[![Build Status](https://travis-ci.org/silverbulleters/ovm.svg?branch=develop)](https://travis-ci.org/silverbulleters/ovm)
-[![Quality Gate](https://opensonar.silverbulleters.org/api/project_badges/measure?project=ovm&metric=alert_status)](https://opensonar.silverbulleters.org/dashboard?id=ovm)
-[![Tech Debt](https://opensonar.silverbulleters.org/api/project_badges/measure?project=ovm&metric=sqale_index)](https://opensonar.silverbulleters.org/dashboard?id=ovm)
-
 ## Цель
 
 ovm - утилита, предназначенная для установки, обновления и переключения между различными версиями OneScript. Вдохновение черпается из nvm (node.js version manager)
