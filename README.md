@@ -1,3 +1,9 @@
+**Важно!** Этот репозиторий устарел! Разработка и выпуск релизов ведется в репозитории
+
+# https://github.com/oscript-library/ovm
+
+
+
 # OneScript Version Manager
 
 ## Цель
